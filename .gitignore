@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+models/
+
+data/*.npy
+data/*.pkl
+data/*.jsonl
+data/*.csv
+
+qdrant_storage/
+
+.env
